@@ -20,25 +20,25 @@
                 <table align="center" width="50%">
                     <tr>
                     <td>
-                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
                 </td>
                     <td>
-                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
                 </td>
                     <td>
-                    <code><img height="20" src="https://cdn.worldvectorlogo.com/logos/svelte-1.svg"></code>
+                    <code><img height="30" src="https://cdn.worldvectorlogo.com/logos/svelte-1.svg"></code>
                 </td>
                     <td>
-                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
                 </td>
                     <td>
-                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
+                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
                 </td>
                     <td>
-                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
                 </td>
                     <td>
-                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
                 </td>
             </tr>
         </table>
@@ -80,6 +80,10 @@
                     <a href="https://discord.com/users/169711695932030976" target="_blank">
                         <img width="100%" src="https://lanyard.kyrie25.me/api/169711695932030976?decoration=true&useDisplayName=false&animationDuration=2s&waveColor=202225&imgStyle=square&imgBorderRadius=16px&bg=202225" alt="Profile Image"/>
                     </a>
+                </td>
+                <td>
+                    <a href="https://discord.com/invite/CDD223E3W3 " target="_blank">
+                        <img width="100%" src="https://api.weblutions.com/discord/invite/CDD223E3W3">
                     <a href="https://discord.com/invite/JVhKwNGmKF" target="_blank">
                         <img width="100%" src="https://api.weblutions.com/discord/invite/JVhKwNGmKF">
                     <a href="https://github.com/88JC" target="_blank">
