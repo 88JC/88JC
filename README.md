@@ -15,62 +15,30 @@
         <table>
             <tr>
                 <h1>
-                    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&pause=1000&color=F0FF32&background=69FF2000&center=true&vCenter=true&repeat=false&width=435&lines=Connect's+with+me" style="width: 600px; height: auto;" alt="Typing SVG">
-                </h1>
-                <table align="center" width="50%">
-                 <tr>
-                    <td>
-                    <a href="https://discord.com/users/169711695932030976" target="_blank">
-                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" alt="Discord Profile">
-                    </a>
-                    </td>
-                   <td>
-                    <a href="https://x.com/88_shank" target="_blank">
-                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="Twitter">
-                    </a>
-                    </td>
-                   <td>
-                    <a href="mailto:chan@jecky.id" target="_blank">
-                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Mail">
-                    </a>
-                    </td>
-                   <td>
-                    <a href="https://www.youtube.com/@chanjecky" target="_blank">
-                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/174/174883.png" alt="YouTube">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div align="center">
-        <br>
-        <table>
-            <tr>
-                <h1>
                     <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&pause=1000&color=18CA1F&background=69FF2000&center=true&vCenter=true&repeat=false&width=435&lines=Skills's" style="width: 600px; height: auto;" alt="Typing SVG">
                 </h1>
                 <table align="center" width="50%">
                     <tr>
                     <td>
-                    <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
                 </td>
                     <td>
-                    <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
                 </td>
                     <td>
-                    <code><img height="25" src="https://cdn.worldvectorlogo.com/logos/svelte-1.svg"></code>
+                    <code><img height="20" src="https://cdn.worldvectorlogo.com/logos/svelte-1.svg"></code>
                 </td>
                     <td>
-                    <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
                 </td>
                     <td>
-                    <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
+                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
                 </td>
                     <td>
-                    <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
                 </td>
                     <td>
-                    <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+                    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
                 </td>
             </tr>
         </table>
@@ -112,16 +80,41 @@
                     <a href="https://discord.com/users/169711695932030976" target="_blank">
                         <img width="100%" src="https://lanyard.kyrie25.me/api/169711695932030976?decoration=true&useDisplayName=false&animationDuration=2s&waveColor=202225&imgStyle=square&imgBorderRadius=16px&bg=202225" alt="Profile Image"/>
                     </a>
-                    <a href="https://discord.com/invite/CDD223E3W3" target="_blank">
-                        <img width="100%" src="https://api.weblutions.com/discord/invite/CDD223E3W3">
-                    <a href="https://github.com/88JC" target="_blank">
-                </td>
-                <td align="center" width="50%">
-                    <a href="https://discord.com/users/498969254842859521" target="_blank">
-                        <img width="100%" src="https://lanyard.kyrie25.me/api/498969254842859521?decoration=true&useDisplayName=false&animationDuration=2s&waveColor=202225&imgStyle=square&imgBorderRadius=16px&bg=202225" alt="Profile Image"/>
-                    </a>
                     <a href="https://discord.com/invite/JVhKwNGmKF" target="_blank">
                         <img width="100%" src="https://api.weblutions.com/discord/invite/JVhKwNGmKF">
+                    <a href="https://github.com/88JC" target="_blank">
+                </td>
+            </tr>
+        </table>
+    </div>
+                        <div align="center">
+        <br>
+        <table>
+            <tr>
+                <h1>
+                    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&pause=1000&color=F0FF32&background=69FF2000&center=true&vCenter=true&repeat=false&width=435&lines=Connect's+with+me" style="width: 600px; height: auto;" alt="Typing SVG">
+                </h1>
+                <table align="center" width="50%">
+                 <tr>
+                    <td>
+                    <a href="https://discord.com/users/169711695932030976" target="_blank">
+                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" alt="Discord Profile">
+                    </a>
+                    </td>
+                   <td>
+                    <a href="https://x.com/88_shank" target="_blank">
+                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="Twitter">
+                    </a>
+                    </td>
+                   <td>
+                    <a href="mailto:chan@jecky.id" target="_blank">
+                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Mail">
+                    </a>
+                    </td>
+                   <td>
+                    <a href="https://www.youtube.com/@chanjecky" target="_blank">
+                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/174/174883.png" alt="YouTube">
+                    </a>
                 </td>
             </tr>
         </table>
