@@ -15,39 +15,6 @@
         <table>
             <tr>
                 <h1>
-                    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&pause=1000&color=18CA1F&background=69FF2000&center=true&vCenter=true&repeat=false&width=435&lines=Skills's" style="width: 600px; height: auto;" alt="Typing SVG">
-                </h1>
-                <table align="center" width="50%">
-                    <tr>
-                    <td>
-                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-                </td>
-                    <td>
-                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-                </td>
-                    <td>
-                    <code><img height="30" src="https://cdn.worldvectorlogo.com/logos/svelte-1.svg"></code>
-                </td>
-                    <td>
-                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-                </td>
-                    <td>
-                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
-                </td>
-                    <td>
-                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
-                </td>
-                    <td>
-                    <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div align="center">
-        <br>
-        <table>
-            <tr>
-                <h1>
                     <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&pause=1000&color=FF0000&bg_color=202225&center=true&vCenter=true&repeat=false&width=435&lines=GitHub+Stats's" style="width: 600px; height: auto;" alt="Typing SVG">
                 </h1>
                 <td align="center" width="50%">
@@ -96,7 +63,7 @@
         <table>
             <tr>
                 <h1>
-                    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&pause=1000&color=F0FF32&background=69FF2000&center=true&vCenter=true&repeat=false&width=435&lines=Connect's+with+me" style="width: 600px; height: auto;" alt="Typing SVG">
+                    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&pause=1000&color=18CA1F&background=69FF2000&center=true&vCenter=true&repeat=false&width=435&lines=Connect's+with+me" style="width: 600px; height: auto;" alt="Typing SVG">
                 </h1>
                 <table align="center" width="50%">
                  <tr>
