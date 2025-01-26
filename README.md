@@ -39,7 +39,7 @@
             <tr>
                 <td align="center" width="50%">
                     <a href="https://discord.com/users/169711695932030976" target="_blank">
-                        <img width="100%" src="https://lanyard.kyrie25.me/api/169711695932030976?decoration=true&useDisplayName=false&animationDuration=2s&waveColor=202225&imgStyle=square&imgBorderRadius=16px&bg=202225" alt="Profile Image"/>
+                        <img width="100%" src="https://lanyard.cnrad.dev/api/169711695932030976?waveColor=202225&bg=202225" alt="Profile Image"/>
                     </a>
                 </td>
                 <td align="center" width="50%">
@@ -80,7 +80,7 @@
                 </td>
                 <td>
                     <a href="https://jecky.id" target="_blank">
-                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/4154/4154427.png" alt="Personal Site">
+                        <img height="25" src="" alt="Personal Site">
                     </a>
                 </td>
             </tr>
