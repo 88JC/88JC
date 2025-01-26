@@ -80,7 +80,7 @@
                 </td>
                 <td>
                     <a href="https://jecky.id" target="_blank">
-                        <img height="25" src="" alt="Personal Site">
+                        <img height="25" src="https://cdn-icons-png.flaticon.com/128/4154/4154040.png" alt="Personal Site">
                     </a>
                 </td>
             </tr>
