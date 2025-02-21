@@ -21,4 +21,4 @@
 
 Email notification only from **[chan@jecky.id](mailto:chan@jecky.id)**
 
-![IMG](https://github.com/88JC/Love/blob/main/love.svg)
+![IMG](https://gist.github.com/88JC/723bfe206f02225be8312b5a0d928e76)
