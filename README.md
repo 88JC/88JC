@@ -24,5 +24,5 @@ Email notification only from **[chan@jecky.id](mailto:chan@jecky.id)**
 ---
 
 <picture>
-  <img src="https://cdn.jecky.id/love.svg">
+  <img src="https://cdn.jecky.id/img/love.svg">
 </picture>
