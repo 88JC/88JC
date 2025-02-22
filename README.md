@@ -1,7 +1,7 @@
 <h1 align="center">
     <a href="https://github.com/88JC/" target="_blank">
         <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=326EFF&size=35&center=true&width=600&height=69&lines=Hi+there!;Welcome+To+My+Profile;" alt="Typing SVG">
-        <img src="https://www.jecky.id/88JC.png/" alt="Profile Image" />
+        <img src="https://cdn.jecky.id/img/88JC.png" alt="Profile Image" />
         <img src="https://komarev.com/ghpvc/?username=88JC&color=lightgrey&labelColor=grey&style=for-the-badge&logo=eye&label=visitor&logoColor=white" alt="Profile views" />
     </a>
 </h1>
@@ -24,5 +24,5 @@ Email notification only from **[chan@jecky.id](mailto:chan@jecky.id)**
 ---
 
 <picture>
-  <img src="https://raw.githubusercontent.com/gist/88JC/723bfe206f02225be8312b5a0d928e76/raw/62cccdb393fccb33451dda29734538c69da49bb4/love.svg">
+  <img src="https://cdn.jecky.id/love.svg">
 </picture>
