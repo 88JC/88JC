@@ -7,7 +7,7 @@
 </h1>
 
 ## 🚀 About Me
-🔭 I’m currently working on [Soulvibe](https://soulvibebot.com) <br>
+🔭 I’m currently working on [Soulvibe](https://soulvibe.my) <br>
 🌱 I’m currently learning How to make Discord Bot <br>
 
 ## 📫 Let's Connect
