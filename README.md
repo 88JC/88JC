@@ -11,6 +11,9 @@
 🌱 I’m currently learning How to make Discord Bot <br>
 
 ## 📫 Let's Connect
+<a href="https://discord.com/users/320607798234710018" target="_blank">
+<img src="https://lanyard.cnrad.dev/api/320607798234710018?waveColor=202225&bg=transparent" width="250">
+</a>
 <a href="https://discord.com/users/169711695932030976" target="_blank">
 <img src="https://lanyard.cnrad.dev/api/169711695932030976?waveColor=202225&bg=transparent" width="250">
 </a>
