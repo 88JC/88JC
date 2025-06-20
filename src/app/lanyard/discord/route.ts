@@ -33,7 +33,7 @@ interface LanyardData {
 
 export async function GET() {
   try {
-    const response = await fetch('https://api.lanyard.rest/v1/users/169711695932030976');
+    const response = await fetch('https://api.lanyard.rest/v1/users/320607798234710018');
     const data = await response.json() as LanyardData;
     
     if (data.success === false) {
