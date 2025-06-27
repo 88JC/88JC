@@ -5,7 +5,6 @@ import {
   SiGithub, 
   SiDiscord, 
   SiX, 
-  SiInstagram,
   SiGmail,
   SiSteam
 } from '@icons-pack/react-simple-icons';
@@ -33,25 +32,21 @@ export default function IconLink({ href, icon, label, className = '' }: IconLink
 }
 
 export function GitHubIcon(props: React.SVGProps<SVGSVGElement>) {
-  return <SiGithub size={25} title="GitHub" className="hover:text-[#181717]" {...props} />;
+  return <SiGithub size={props.className?.includes('w-6') ? 24 : 25} title="GitHub" className="hover:text-[#181717] dark:hover:text-white" {...props} />;
 }
 
 export function DiscordIcon(props: React.SVGProps<SVGSVGElement>) {
-  return <SiDiscord size={25} title="Discord" className="hover:text-[#5865F2]" {...props} />;
+  return <SiDiscord size={props.className?.includes('w-6') ? 24 : 25} title="Discord" className="hover:text-[#5865F2]" {...props} />;
 }
 
 export function SteamIcon(props: React.SVGProps<SVGSVGElement>) {
-  return <SiSteam size={25} title="Steam" className="hover:text-[#181717]" {...props} />;
+  return <SiSteam size={props.className?.includes('w-6') ? 24 : 25} title="Steam" className="hover:text-[#1b2838]" {...props} />;
 }
 
 export function XIcon(props: React.SVGProps<SVGSVGElement>) {
-  return <SiX size={25} title="X" className="hover:text-[#181717]" {...props} />;
-}
-
-export function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
-  return <SiInstagram size={25} title="Instagram" className="hover:text-[#E4405F]" {...props} />;
+  return <SiX size={props.className?.includes('w-6') ? 24 : 25} title="X" className="hover:text-[#181717] dark:hover:text-white" {...props} />;
 }
 
 export function MailIcon(props: React.SVGProps<SVGSVGElement>) {
-  return <SiGmail size={25} title="Email" className="hover:text-[#EA4335]" {...props} />;
+  return <SiGmail size={props.className?.includes('w-6') ? 24 : 25} title="Email" className="hover:text-[#EA4335]" {...props} />;
 } 

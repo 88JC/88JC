@@ -4,7 +4,6 @@ import IconLink, {
   GitHubIcon, 
   DiscordIcon, 
   XIcon, 
-  InstagramIcon,
   MailIcon,
   SteamIcon
 } from "../components/IconLink";
@@ -92,7 +91,6 @@ export default function Home() {
             <IconLink href={personInfo.socialLinks.steam} icon={<SteamIcon />} label="Steam" />
             <IconLink href={personInfo.socialLinks.discord} icon={<DiscordIcon />} label="Discord" />
             <IconLink href={personInfo.socialLinks.twitter} icon={<XIcon />} label="X" />
-            <IconLink href={personInfo.socialLinks.instagram} icon={<InstagramIcon />} label="Instagram" />
           </div>
         </div>
       </div>

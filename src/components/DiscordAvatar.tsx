@@ -24,7 +24,7 @@ const placeholderData: DiscordStatusData = {
   status_text: 'offline',
   discord_avatar: 'https://cdn.discordapp.com/embed/avatars/0.png',
   avatar_decoration: null,
-  discord_username: 'jcvy'
+  discord_username: 'jexq',
 };
 
 export default function DiscordAvatar({
@@ -94,14 +94,20 @@ export default function DiscordAvatar({
         <div 
           className="absolute inset-0 overflow-hidden rounded-full"
           style={{ 
-            zIndex: decorationInFront ? 10 : 20,
+            zIndex: decorationInFront ? 5 : 20,
             boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+            top: decorationInFront ? '8%' : '0',
+            left: decorationInFront ? '8%' : '0',
+            right: decorationInFront ? '8%' : '0',
+            bottom: decorationInFront ? '8%' : '0',
+            width: decorationInFront ? '84%' : '100%',
+            height: decorationInFront ? '84%' : '100%',
           }}
         >
           <img
             src={data.discord_avatar}
             alt={`Discord avatar`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-full"
             loading="eager"
           />
         </div>
@@ -110,7 +116,7 @@ export default function DiscordAvatar({
           <div 
             className="absolute flex items-center justify-center overflow-visible"
             style={{ 
-              zIndex: decorationInFront ? 20 : 10,
+              zIndex: decorationInFront ? 25 : 10,
               top: decorationConfig.insetTopBottom,
               right: decorationConfig.insetLeftRight,
               bottom: decorationConfig.insetTopBottom,

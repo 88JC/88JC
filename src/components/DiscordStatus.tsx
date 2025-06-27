@@ -19,7 +19,7 @@ const placeholderData: DiscordStatusData = {
   status_text: 'offline',
   discord_avatar: '',
   avatar_decoration: null,
-  discord_username: 'jcvy',
+  discord_username: 'jexq',
   custom_status: null,
   current_application: null
 };
