@@ -6,20 +6,19 @@
     </a>
 </h1>
 
-## 🚀 About Me
-🔭 I’m currently working on [Soulvibe](https://soulvibe-bot.com) <br>
-🌱 I’m currently learning How to make Discord Bot <br>
+> [!NOTE]
+> I’m currently developing for **[Soulvibe](https://soulvibe.my.id)**
 
-## 📫 Let's Connect
+## Let's Connects~
 <a href="https://discord.com/users/320607798234710018" target="_blank">
 <img src="https://lanyard.cnrad.dev/api/320607798234710018?waveColor=202225&bg=transparent" width="250">
 </a>
 
 - **[X](https://x.com/kydofate)**
-- **[Discord](https://discord.gg/CDD223E3W3)**
-- **[Website](https://wokydo.me)**
+- **[Instagram](https://instagram.com/jecvky)**
+- **[Discord Server](https://discord.gg/CDD223E3W3)**
 
-Email notification only from **[hi@wokydo.me](mailto:hi@wokydo.me)**
+Email notification only from **[kydo@outlook.co.id](mailto:kydo@outlook.co.id)**
 
 ---
 

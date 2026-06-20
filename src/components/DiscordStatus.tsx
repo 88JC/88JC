@@ -85,7 +85,7 @@ export default function DiscordStatus() {
           <div className="relative group">
             <div className="relative w-4 h-4 transition-all duration-300 ease-in-out hover:scale-110">
               <div className="absolute w-4 h-4 rounded-full bg-[#faa61a] shadow-md shadow-[#faa61a]/30"></div>
-              <div className="absolute w-2 h-2 bg-[#2b2b2b] rounded-full top-0 right-0"></div>
+              <div className="absolute w-2 h-2 bg-white dark:bg-black rounded-full top-0 right-0"></div>
             </div>
             <span className="absolute -top-8 left-1/2 -translate-x-1/2 p-1 px-2 bg-black/80 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">Idle</span>
           </div>
@@ -95,7 +95,7 @@ export default function DiscordStatus() {
           <div className="relative group">
             <div className="relative w-4 h-4 transition-all duration-300 ease-in-out hover:scale-110">
               <div className="absolute w-4 h-4 rounded-full bg-[#ed4245] shadow-md shadow-[#ed4245]/30"></div>
-              <div className="absolute w-2.5 h-[2px] bg-[#2b2b2b] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="absolute w-2.5 h-[2px] bg-white dark:bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             </div>
             <span className="absolute -top-8 left-1/2 -translate-x-1/2 p-1 px-2 bg-black/80 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">Do Not Disturb</span>
           </div>
@@ -116,7 +116,7 @@ export default function DiscordStatus() {
           <div className="relative group">
             <div className="relative w-4 h-4 transition-all duration-300 ease-in-out hover:scale-110">
               <div className="absolute w-4 h-4 rounded-full bg-[#747f8d] shadow-md shadow-[#747f8d]/20"></div>
-              <div className="absolute w-2 h-2 rounded-full bg-[#2b2b2b] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="absolute w-2 h-2 rounded-full bg-white dark:bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             </div>
             <span className="absolute -top-8 left-1/2 -translate-x-1/2 p-1 px-2 bg-black/80 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">Offline</span>
           </div>
@@ -125,7 +125,7 @@ export default function DiscordStatus() {
   };
 
   return (
-    <div className="inline-flex items-center gap-3 min-w-[60px] min-h-[28px] transition-opacity duration-300">
+    <div className="inline-flex items-center gap-3 min-w-[60px] min-h-[28px] transition-opacity duration-300 text-black dark:text-white">
       {renderStatusIcon()}
       <span className="text-lg opacity-70 transition-opacity duration-300 hover:opacity-100">{status.status_text}</span>
       {status.custom_status && (

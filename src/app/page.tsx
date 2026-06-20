@@ -1,10 +1,10 @@
 "use client";
 
-import IconLink, { 
-  GitHubIcon, 
-  DiscordIcon, 
-  XIcon, 
-  MailIcon,
+import IconLink, {
+  GitHubIcon,
+  DiscordIcon,
+  XIcon,
+  PortofolioIcon,
   SteamIcon
 } from "../components/IconLink";
 import ProfileAvatar from "../components/ProfileAvatar";
@@ -22,16 +22,16 @@ const CONFIG = {
 
 const personInfo = {
   name: "Kydo",
-  username: "jexq",
+  username: "ky.do",
   profession: "Tech Enthusiast",
   discordId: "320607798234710018",
   socialLinks: {
-    mail: "mailto:chan@jecky.id",
     github: "https://github.com/88JC",
     steam: "https://steamcommunity.com/profiles/76561197961982796",
     discord: "https://discord.gg/CDD223E3W3",
-    twitter: "https://x.com/METALHEAD666",
-    instagram: "https://instagram.com/jecvky"
+    twitter: "https://x.com/kydofate",
+    instagram: "https://instagram.com/jecvky",
+    portofolio: "https://wky.me",
   }
 };
 
@@ -42,10 +42,10 @@ export default function Home() {
     const handleResize = () => {
       setAvatarSize(window.innerWidth < 640 ? CONFIG.mobileAvatarSize : CONFIG.avatarSize);
     };
-    
+
     handleResize();
     window.addEventListener('resize', handleResize);
-    
+
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -55,42 +55,42 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center px-4 sm:px-6 py-12 sm:py-20 bg-white dark:bg-black text-black dark:text-white">
       <div className="w-full max-w-md mx-auto flex flex-col items-center">
         <div className="w-full flex flex-col items-center content-visibility-auto">
-          <div 
+          <div
             className="mb-6 sm:mb-10 relative flex items-center justify-center"
-            style={{ 
+            style={{
               height: avatarSize,
               minHeight: avatarSize
             }}
           >
             {CONFIG.useDiscordAvatar ? (
-              <DiscordAvatar 
+              <DiscordAvatar
                 size={avatarSize}
                 showStatus={CONFIG.showStatus}
                 decorationInFront={CONFIG.decorationInFront}
                 className="mx-auto"
               />
             ) : (
-              <ProfileAvatar 
-                fallbackInitials={personInfo.name.split(' ').map(n => n[0]).join('')} 
+              <ProfileAvatar
+                fallbackInitials={personInfo.name.split(' ').map(n => n[0]).join('')}
                 size={avatarSize}
               />
             )}
           </div>
-          
-          <h1 className="text-4xl sm:text-6xl font-bold mb-2 sm:mb-4 text-center">Hey, I'm <span className="text-blue-500">{personInfo.name}</span>!</h1>
-          
-          <h2 className="text-xl sm:text-3xl mb-4 sm:mb-6 text-white/50 text-center">{personInfo.profession}</h2>
-          
+
+          <h1 className="text-4xl sm:text-6xl font-bold mb-2 sm:mb-4 text-black dark:text-white text-center">Hey, I'm <span className="text-blue-500">{personInfo.name}</span>!</h1>
+
+          <h2 className="text-xl sm:text-3xl font-semibold mb-4 sm:mb-6 text-black dark:text-white/50 text-center">{personInfo.profession}</h2>
+
           <div className="mb-8 sm:mb-16 h-[28px] flex items-center justify-center">
             <DiscordStatus />
           </div>
 
           <div className="flex flex-wrap gap-6 sm:gap-12 justify-center">
-            <IconLink href={personInfo.socialLinks.mail} icon={<MailIcon />} label="Email" />
             <IconLink href={personInfo.socialLinks.github} icon={<GitHubIcon />} label="GitHub" />
             <IconLink href={personInfo.socialLinks.steam} icon={<SteamIcon />} label="Steam" />
             <IconLink href={personInfo.socialLinks.discord} icon={<DiscordIcon />} label="Discord" />
             <IconLink href={personInfo.socialLinks.twitter} icon={<XIcon />} label="X" />
+            <IconLink href={personInfo.socialLinks.portofolio} icon={<PortofolioIcon />} label="Portofolio" />
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ export default function ProfileAvatar({
       {!imgError ? (
         <>
           {!isLoaded && (
-            <div className="absolute inset-0 w-full h-full bg-gray-200 dark:bg-gray-800 animate-pulse"></div>
+            <div className="absolute inset-0 w-full h-full bg-gray-200 bg-gray-800 animate-pulse"></div>
           )}
           <Image
             src={imageUrl!}

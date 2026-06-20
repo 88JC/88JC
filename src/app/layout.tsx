@@ -19,10 +19,10 @@ const geistMono = Geist_Mono({
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 const personInfo = {
-  name: "kydo",
+  name: "KYDO",
   username: "88JC",
   description: "Hi! Welcome to my personal website.",
-  domain: "jecky.id",
+  domain: "wky.me",
 };
 
 export const metadata: Metadata = {
