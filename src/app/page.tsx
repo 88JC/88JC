@@ -31,7 +31,7 @@ const personInfo = {
     discord: "https://discord.gg/CDD223E3W3",
     twitter: "https://x.com/kydofate",
     instagram: "https://instagram.com/jecvky",
-    portofolio: "https://wky.me",
+    portofolio: "https://wokydo.me",
   }
 };
 
