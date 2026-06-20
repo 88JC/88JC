@@ -5,7 +5,7 @@ import {
   SiGithub, 
   SiDiscord, 
   SiX, 
-  SiSteam
+  SiInstagram,
 } from '@icons-pack/react-simple-icons';
 import { Globe } from 'lucide-react';
 
@@ -44,8 +44,8 @@ export function DiscordIcon(props: React.SVGProps<SVGSVGElement>) {
   return <SiDiscord size={props.className?.includes('w-6') ? 24 : 25} title="Discord" className="transition-colors duration-300 group-hover:text-[#5865F2]" {...props} />;
 }
 
-export function SteamIcon(props: React.SVGProps<SVGSVGElement>) {
-  return <SiSteam size={props.className?.includes('w-6') ? 24 : 25} title="Steam" className="transition-colors duration-300 group-hover:text-[#1b2838] dark:group-hover:text-[#66c0f4]" {...props} />;
+export function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
+  return <SiInstagram size={props.className?.includes('w-6') ? 24 : 25} title="Instagram" className="transition-colors duration-300 group-hover:text-[#e1306c]" {...props} />;
 }
 
 export function XIcon(props: React.SVGProps<SVGSVGElement>) {

@@ -5,7 +5,7 @@ import IconLink, {
   DiscordIcon,
   XIcon,
   PortofolioIcon,
-  SteamIcon
+  InstagramIcon
 } from "../components/IconLink";
 import ProfileAvatar from "../components/ProfileAvatar";
 import DiscordStatus from "../components/DiscordStatus";
@@ -27,10 +27,9 @@ const personInfo = {
   discordId: "320607798234710018",
   socialLinks: {
     github: "https://github.com/88JC",
-    steam: "https://steamcommunity.com/profiles/76561197961982796",
+    instagram: "https://instagram.com/jecvky",
     discord: "https://discord.gg/CDD223E3W3",
     twitter: "https://x.com/kydofate",
-    instagram: "https://instagram.com/jecvky",
     portofolio: "https://wokydo.me",
   }
 };
@@ -88,9 +87,9 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-6 sm:gap-12 justify-center">
             <IconLink href={personInfo.socialLinks.github} icon={<GitHubIcon />} label="GitHub" />
-            <IconLink href={personInfo.socialLinks.steam} icon={<SteamIcon />} label="Steam" />
-            <IconLink href={personInfo.socialLinks.discord} icon={<DiscordIcon />} label="Discord" />
             <IconLink href={personInfo.socialLinks.twitter} icon={<XIcon />} label="X" />
+            <IconLink href={personInfo.socialLinks.discord} icon={<DiscordIcon />} label="Discord" />
+            <IconLink href={personInfo.socialLinks.instagram} icon={<InstagramIcon />} label="Instagram" />
             <IconLink href={personInfo.socialLinks.portofolio} icon={<PortofolioIcon />} label="Portofolio" />
           </div>
         </div>
