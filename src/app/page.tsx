@@ -56,11 +56,12 @@ export default function Home() {
       <div className="w-full max-w-md mx-auto flex flex-col items-center">
         <div className="w-full flex flex-col items-center content-visibility-auto">
           <div
-            className="mb-6 sm:mb-10 relative flex items-center justify-center"
+            className="mb-6 sm:mb-10 relative flex items-center justify-center select-none"
             style={{
               height: avatarSize,
               minHeight: avatarSize
             }}
+            onContextMenu={(e) => e.preventDefault()}
           >
             {CONFIG.useDiscordAvatar ? (
               <DiscordAvatar

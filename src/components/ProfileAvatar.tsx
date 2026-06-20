@@ -55,6 +55,7 @@ export default function ProfileAvatar({
             onError={handleImgError}
             onLoad={handleImgLoad}
             priority={priority}
+            draggable={false}
           />
         </>
       ) : (

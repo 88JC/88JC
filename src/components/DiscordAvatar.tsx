@@ -109,6 +109,7 @@ export default function DiscordAvatar({
             alt={`Discord avatar`}
             className="w-full h-full object-cover rounded-full"
             loading="eager"
+            draggable={false}
           />
         </div>
         
@@ -130,6 +131,7 @@ export default function DiscordAvatar({
               src={data.avatar_decoration}
               alt="Avatar decoration"
               className={`w-full h-full object-contain ${decorationConfig.animationClass}`}
+              draggable={false}
             />
           </div>
         )}
