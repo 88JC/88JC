@@ -28,7 +28,7 @@ const personInfo = {
   socialLinks: {
     github: "https://github.com/88JC",
     instagram: "https://instagram.com/jecvky",
-    discord: "https://discord.gg/CDD223E3W3",
+    discord: "https://discord.com/users/320607798234710018",
     twitter: "https://x.com/kydofate",
     portofolio: "https://wokydo.me",
   }
