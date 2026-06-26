@@ -19,7 +19,7 @@ const placeholderData: DiscordStatusData = {
   status_text: 'offline',
   discord_avatar: '',
   avatar_decoration: null,
-  discord_username: 'jexq',
+  discord_username: 'ky.do',
   custom_status: null,
   current_application: null
 };
@@ -31,7 +31,7 @@ export default function DiscordStatus() {
 
   useEffect(() => {
     mountedRef.current = true;
-    
+
     const fetchDiscordStatus = async () => {
       try {
         const response = await fetch('/lanyard/discord');
@@ -39,9 +39,9 @@ export default function DiscordStatus() {
           throw new Error('Failed to fetch Discord status');
         }
         const data = await response.json();
-        
+
         console.log('Discord status data:', data);
-        
+
         if (mountedRef.current) {
           setStatus(data);
           setIsLoaded(true);
@@ -57,7 +57,7 @@ export default function DiscordStatus() {
     fetchDiscordStatus();
 
     const interval = setInterval(fetchDiscordStatus, 30000);
-    
+
     return () => {
       mountedRef.current = false;
       clearInterval(interval);
@@ -71,7 +71,7 @@ export default function DiscordStatus() {
   const renderStatusIcon = () => {
     const statusValue = status.status_text.toLowerCase();
     console.log('Rendering status icon for:', statusValue);
-    
+
     switch (statusValue) {
       case 'online':
         return (

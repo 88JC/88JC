@@ -9,12 +9,14 @@ interface LanyardData {
     active_on_discord_desktop: boolean;
     active_on_discord_mobile: boolean;
     discord_user: {
-      avatar: string;
+      id: string;
+      username: string;
+      discriminator: string;
+      avatar: string | null;
       avatar_decoration_data?: {
         asset: string;
       };
       global_name?: string;
-      username: string;
       clan?: {
         identity_guild_id: string;
         badge: string;
@@ -84,6 +86,24 @@ export async function GET() {
       statusForIcon = 'streaming';
     }
 
+    let discordAvatar = '';
+    if (data.data.discord_user.avatar) {
+      discordAvatar = `https://cdn.discordapp.com/avatars/${DiscordIds}/${data.data.discord_user.avatar}.png?size=512`;
+    } else {
+      let index = 0;
+      if (data.data.discord_user.discriminator && data.data.discord_user.discriminator !== '0') {
+        index = parseInt(data.data.discord_user.discriminator, 10) % 5;
+      } else {
+        try {
+          const userIdBigInt = BigInt(data.data.discord_user.id || DiscordIds);
+          index = Number((userIdBigInt >> BigInt(22)) % BigInt(6));
+        } catch (e) {
+          index = 0;
+        }
+      }
+      discordAvatar = `https://cdn.discordapp.com/embed/avatars/${index}.png`;
+    }
+
     const status = {
       discord_status: getDiscordStatus(data.data.discord_status),
       status_color: getStatusColor(statusForIcon),
@@ -91,7 +111,7 @@ export async function GET() {
       active_on_discord_web: Boolean(data.data.active_on_discord_web),
       active_on_discord_desktop: Boolean(data.data.active_on_discord_desktop),
       active_on_discord_mobile: Boolean(data.data.active_on_discord_mobile),
-      discord_avatar: `https://cdn.discordapp.com/avatars/${DiscordIds}/${data.data.discord_user.avatar}.png?size=512`,
+      discord_avatar: discordAvatar,
       avatar_decoration: data.data.discord_user.avatar_decoration_data ? 
         `https://cdn.discordapp.com/avatar-decoration-presets/${data.data.discord_user.avatar_decoration_data.asset}.png` : null,
       discord_username: data.data.discord_user.global_name || data.data.discord_user.username,
